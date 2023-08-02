@@ -20,7 +20,7 @@ enum toppings: String {
 
 class PizzaViewModel: ObservableObject {
     
-    @Published var pizzaSize: String = ""
+    @Published var pizzaSize: String = " "
     @Published var pizzaTopping: [String] = []
     var pizzaStack: [String] {
         var pizzaStack: [String] = [pizzaSize]
